@@ -1,12 +1,12 @@
 import * as THREE from "three";
-import { OrbitControls } from "./node_modules/three/examples/jsm/controls/OrbitControls.js";
-import { GUI } from "./node_modules/three/examples/jsm/libs/lil-gui.module.min.js";
-import { OBJLoader } from "./node_modules/three/examples/jsm/loaders/OBJLoader.js";
-import { MTLLoader } from "./node_modules/three/examples/jsm/loaders/MTLLoader.js";
-import { EffectComposer } from "./node_modules/three/examples/jsm/postprocessing/EffectComposer.js";
-import { RenderPass } from "./node_modules/three/examples/jsm/postprocessing/RenderPass.js";
-import { UnrealBloomPass } from "./node_modules/three/examples/jsm/postprocessing/UnrealBloomPass.js";
-import { InstancedMesh } from "./node_modules/three/src/objects/InstancedMesh.js";
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
+import { GUI } from "three/examples/jsm/libs/lil-gui.module.min.js";
+import { OBJLoader } from "three/examples/jsm/loaders/OBJLoader.js";
+import { MTLLoader } from "three/examples/jsm/loaders/MTLLoader.js";
+import { EffectComposer } from "three/examples/jsm/postprocessing/EffectComposer.js";
+import { RenderPass } from "three/examples/jsm/postprocessing/RenderPass.js";
+import { UnrealBloomPass } from "three/examples/jsm/postprocessing/UnrealBloomPass.js";
+import { InstancedMesh } from "three/src/objects/InstancedMesh.js";
 
 let camera1_active = true;
 let movesaucer = false;
